@@ -12,7 +12,7 @@ repository= "https://github.com/raymanfx/eye-rs"
 bitflags = "1.2.1"
 
 [target.'cfg(target_os = "linux")'.dependencies]
-v4l = { git = "https://github.com/Alcasser/libv4l-rs", branch = "fix-type-from-dependency-rev" }
+v4l = { git = "https://github.com/Alcasser/libv4l-rs", branch = "master" }
 
 [target.'cfg(target_os="windows")'.dependencies]
 uvc = { version = "0.2.0", features = ["vendor"] }
